@@ -1,0 +1,21 @@
+{
+  "name": "myfileserver",
+  "version": "1.0.0",
+  "description": "My file server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -r esm app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "carl quimpo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "moment": "^2.29.1",
+    "node-cron": "^3.0.0",
+    "underscore": "^1.13.1"
+  }
+}

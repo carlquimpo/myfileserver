@@ -1,0 +1,6 @@
+{
+  "dailyUploadLimit": 5,
+  "dailyDownloadLimit": 5,
+  "cleanInactiveFilesInDays": 5,
+  "cleanUpSchedule": "* * 23 * * *"
+}
